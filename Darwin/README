@@ -38,12 +38,12 @@ The Darwin commands are:
 Remeber, if you don't know what to do, just type help.
 
 Step-by-step guide:
-  1)Set which lines and columns you want to be ignored with the commands set lines x and set columns x.
+  1)Set which lines and columns you want to be ignored with the commands ignore lines x and ignore columns x.
     The columns will be ignored counting from right to the left and the lines will be ignored counting from top to bottom.
-  to ignore certain data such as headers[
+  to ignore certain data such as headers
   2)Load the csv file with the command Load file.csv, the loaded data will be printed afterwards
   3)Set the parameters with the set commands, remember you will have to initialize the population every time you change a parameter.
-    You can also see the current set parameters with the command params.
+    You can also see the current parameters with the command params.
   4)Evolve your population with the command evolve. It will evolve according to the selection method previously set (default selection: roulette).
   5)Initialize again the population with the command init and compare every selection method with the command compare.
   6)You can check all graphs plotted in the graphs folder that has been created on the same directory in which Darwin is installed.
